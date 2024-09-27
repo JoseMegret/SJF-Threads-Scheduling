@@ -13,10 +13,10 @@ The project showcases:
     Inter-process communication: Using TCP sockets for communication between the embedded device and the cluster.
 
 # How to Use the Program
-##Prerequisites
+## Prerequisites
 
     Python 3.x
-    psutil library (if using the version with psutil):
+    psutil library 
 
     pip install psutil
 
@@ -97,7 +97,7 @@ Consumer 2 total time: 3
 
     Python Threading: Official documentation on Python's threading module: https://docs.python.org/3/library/threading.html
     Python Sockets: Official documentation on Python's socket module for TCP communication: https://docs.python.org/3/library/socket.html
-    psutil Library (if used): Documentation for psutil, which provides information about system and process utilities: https://psutil.readthedocs.io/en/latest/
+    psutil Library: Documentation for psutil, which provides information about system and process utilities: https://psutil.readthedocs.io/en/latest/
 
 Contributors
 
