@@ -13,14 +13,14 @@ The project showcases:
     Inter-process communication: Using TCP sockets for communication between the embedded device and the cluster.
 
 # How to Use the Program
-Prerequisites
+##Prerequisites
 
     Python 3.x
     psutil library (if using the version with psutil):
 
     pip install psutil
 
-# Running the Embedded Device
+## Running the Embedded Device
 
     Open a terminal/command prompt.
 
@@ -47,7 +47,7 @@ bash
         Send these jobs to the cluster via TCP.
         Sleep randomly for 1 to 5 seconds between each job sent.
 
-Running the Cluster
+## Running the Cluster
 
     Open another terminal/command prompt.
 
