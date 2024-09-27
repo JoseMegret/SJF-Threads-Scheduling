@@ -1,4 +1,5 @@
 # Embedded Device and Cluster with Shortest Job First (SJF) Scheduling
+
 ## Description
 
 This project simulates a distributed system consisting of an embedded device and a central computer cluster, implementing a Shortest Job First (SJF) scheduling algorithm.
@@ -11,7 +12,7 @@ The project showcases:
     Mutual exclusion and semaphores: Ensuring proper handling of shared resources between the producer and consumer threads.
     Inter-process communication: Using TCP sockets for communication between the embedded device and the cluster.
 
-How to Use the Program
+# How to Use the Program
 Prerequisites
 
     Python 3.x
@@ -19,7 +20,7 @@ Prerequisites
 
     pip install psutil
 
-Running the Embedded Device
+# Running the Embedded Device
 
     Open a terminal/command prompt.
 
@@ -72,7 +73,7 @@ bash
         Start two consumer threads to execute the jobs by sleeping for the required CPU time.
         Print the job executed by each consumer and their total CPU time.
 
-How the Cluster Works
+# How the Cluster Works
 
     The head node thread listens for incoming jobs from the embedded device. It extracts the process name and CPU time from each message and adds the job to a shared queue.
     The jobs in the queue are sorted by CPU time to implement the Shortest Job First scheduling algorithm.
@@ -92,7 +93,7 @@ Consumer 1 executing cut for 5 seconds
 Consumer 1 total time: 6
 Consumer 2 total time: 3
 
-References
+# References
 
     Python Threading: Official documentation on Python's threading module: https://docs.python.org/3/library/threading.html
     Python Sockets: Official documentation on Python's socket module for TCP communication: https://docs.python.org/3/library/socket.html
@@ -102,5 +103,5 @@ Contributors
 
 This project was developed as part of the Operating Systems course at the University of Puerto Rico, Río Piedras campus.
 
-    Student Name: [Your Name Here]
-    Verbal Collaborators: [List any classmates or students you consulted with during the project, if applicable.]
+    Student Name: [José A. Megret Bonilla]
+    
