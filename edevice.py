@@ -1,7 +1,7 @@
 #=================================================================================
 #
 # Programmer : Jose A. Megret    CCOM 4017 Section 0U1
-# Stu.Num : 801-21-7986          First Semester 2024-2025
+#                                First Semester 2024-2025
 # Assignment 02                  Prof. Jose Ortiz Ubarri
 # File : edevice.py              Date: September 27 2024
 #
