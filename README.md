@@ -28,9 +28,7 @@ The project showcases:
 
     Run the embedded device with the following command:
 
-    php
-
-python edevice.py <server address> <server port>
+    python edevice.py <server address> <server port>
 
     <server address>: The IP address of the machine where the cluster is running (e.g., 127.0.0.1 for localhost).
     <server port>: The port number on which the cluster is listening (should be less than 65,000).
