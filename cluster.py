@@ -3,7 +3,7 @@
 # Programmer : Jose A. Megret    CCOM 4017 Section 0U1
 # Stu.Num : 801-21-7986          First Semester 2024-2025
 # Assignment 02                  Prof. Jose Ortiz Ubarri
-# File : cluster.py              Fecha: September 27 2024
+# File : cluster.py              Date: September 27 2024
 #
 #=================================================================================
 import socket
