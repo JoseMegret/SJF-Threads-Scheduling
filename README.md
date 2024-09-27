@@ -1,7 +1,5 @@
-# SJF-Threads-Scheduling
-
-### Embedded Device and Cluster with Shortest Job First (SJF) Scheduling
-# Description
+# Embedded Device and Cluster with Shortest Job First (SJF) Scheduling
+## Description
 
 This project simulates a distributed system consisting of an embedded device and a central computer cluster, implementing a Shortest Job First (SJF) scheduling algorithm.
 
