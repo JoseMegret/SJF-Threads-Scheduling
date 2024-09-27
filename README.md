@@ -93,5 +93,5 @@ Example Output from the Cluster:
 
 This project was developed as part of the Operating Systems course at the University of Puerto Rico, Río Piedras campus.
 
-    Student Name: [José A. Megret Bonilla]
+    Student Name: José A. Megret Bonilla
     
