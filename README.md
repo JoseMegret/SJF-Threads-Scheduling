@@ -28,7 +28,7 @@ The project showcases:
 
     Run the embedded device with the following command:
 
-python edevice.py <server address> <server port>
+    python edevice.py <server address> <server port>
 
     <server address>: The IP address of the machine where the cluster is running (e.g., 127.0.0.1 for localhost).
     <server port>: The port number on which the cluster is listening (should be less than 65,000).
@@ -51,15 +51,11 @@ Example:
 
     Run the cluster with the following command:
 
-    php
-
-python cluster.py <server port>
+    python cluster.py <server port>   
 
     <server port>: The port number on which the cluster will listen for connections from the embedded device.
 
 Example:
-
-bash
 
     python cluster.py 65432
 
@@ -78,16 +74,14 @@ bash
 
 Example Output from the Cluster:
 
-less
-
-Accepted connection from ('127.0.0.1', 54872)
-Job added and sorted: [('top', 3), ('ls', 1)]
-Job added and sorted: [('ls', 1), ('top', 3), ('cut', 5)]
-Consumer 1 executing ls for 1 seconds
-Consumer 2 executing top for 3 seconds
-Consumer 1 executing cut for 5 seconds
-Consumer 1 total time: 6
-Consumer 2 total time: 3
+    Accepted connection from ('127.0.0.1', 54872)
+    Job added and sorted: [('top', 3), ('ls', 1)]
+    Job added and sorted: [('ls', 1), ('top', 3), ('cut', 5)]
+    Consumer 1 executing ls for 1 seconds
+    Consumer 2 executing top for 3 seconds
+    Consumer 1 executing cut for 5 seconds
+    Consumer 1 total time: 6
+    Consumer 2 total time: 3
 
 # References
 
@@ -95,7 +89,7 @@ Consumer 2 total time: 3
     Python Sockets: Official documentation on Python's socket module for TCP communication: https://docs.python.org/3/library/socket.html
     psutil Library: Documentation for psutil, which provides information about system and process utilities: https://psutil.readthedocs.io/en/latest/
 
-Contributors
+# Contributors
 
 This project was developed as part of the Operating Systems course at the University of Puerto Rico, Río Piedras campus.
 
